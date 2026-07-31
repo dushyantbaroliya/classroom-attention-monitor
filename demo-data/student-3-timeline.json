@@ -1,0 +1,1808 @@
+[
+ {
+  "timestamp": 0.0,
+  "attention": 43.25,
+  "head_pose": "left",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 2.0,
+  "attention": 46.0,
+  "head_pose": "left",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 4.0,
+  "attention": 37.93,
+  "head_pose": "left",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 6.0,
+  "attention": 54.54,
+  "head_pose": "right",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 8.0,
+  "attention": 44.89,
+  "head_pose": "down",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 10.0,
+  "attention": 37.45,
+  "head_pose": "down",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 12.0,
+  "attention": 42.45,
+  "head_pose": "down",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 14.0,
+  "attention": 42.2,
+  "head_pose": "left",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 16.0,
+  "attention": 43.54,
+  "head_pose": "down",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 18.0,
+  "attention": 33.29,
+  "head_pose": "down",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 20.0,
+  "attention": 52.36,
+  "head_pose": "left",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 22.0,
+  "attention": 42.62,
+  "head_pose": "down",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 24.0,
+  "attention": 53.79,
+  "head_pose": "left",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 26.0,
+  "attention": 53.79,
+  "head_pose": "right",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 28.0,
+  "attention": 40.2,
+  "head_pose": "right",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 30.0,
+  "attention": 47.52,
+  "head_pose": "down",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 32.0,
+  "attention": 54.95,
+  "head_pose": "down",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 34.0,
+  "attention": 57.69,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 36.0,
+  "attention": 54.96,
+  "head_pose": "right",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 38.0,
+  "attention": 52.14,
+  "head_pose": "right",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 40.0,
+  "attention": 54.52,
+  "head_pose": "down",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 42.0,
+  "attention": 49.43,
+  "head_pose": "down",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 44.0,
+  "attention": 57.28,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 46.0,
+  "attention": 57.34,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 48.0,
+  "attention": 49.37,
+  "head_pose": "down",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 50.0,
+  "attention": 45.47,
+  "head_pose": "right",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 52.0,
+  "attention": 49.6,
+  "head_pose": "right",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 54.0,
+  "attention": 44.77,
+  "head_pose": "down",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 56.0,
+  "attention": 53.37,
+  "head_pose": "left",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 58.0,
+  "attention": 47.71,
+  "head_pose": "down",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 60.0,
+  "attention": 55.81,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 62.0,
+  "attention": 45.71,
+  "head_pose": "right",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 64.0,
+  "attention": 56.63,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 66.0,
+  "attention": 50.34,
+  "head_pose": "down",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 68.0,
+  "attention": 46.86,
+  "head_pose": "right",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 70.0,
+  "attention": 61.83,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 72.0,
+  "attention": 49.24,
+  "head_pose": "left",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 74.0,
+  "attention": 47.66,
+  "head_pose": "left",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 76.0,
+  "attention": 49.16,
+  "head_pose": "right",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 78.0,
+  "attention": 60.23,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 80.0,
+  "attention": 53.93,
+  "head_pose": "left",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 82.0,
+  "attention": 52.39,
+  "head_pose": "left",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 84.0,
+  "attention": 50.61,
+  "head_pose": "right",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 86.0,
+  "attention": 57.35,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 88.0,
+  "attention": 59.06,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 90.0,
+  "attention": 44.03,
+  "head_pose": "left",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 92.0,
+  "attention": 62.6,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 94.0,
+  "attention": 63.91,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 96.0,
+  "attention": 58.12,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 98.0,
+  "attention": 48.27,
+  "head_pose": "left",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 100.0,
+  "attention": 61.55,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 102.0,
+  "attention": 64.33,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 104.0,
+  "attention": 61.86,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 106.0,
+  "attention": 50.15,
+  "head_pose": "left",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 108.0,
+  "attention": 53.2,
+  "head_pose": "right",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 110.0,
+  "attention": 56.58,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 112.0,
+  "attention": 54.66,
+  "head_pose": "down",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 114.0,
+  "attention": 66.91,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 116.0,
+  "attention": 61.94,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 118.0,
+  "attention": 54.01,
+  "head_pose": "right",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 120.0,
+  "attention": 56.25,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 122.0,
+  "attention": 47.06,
+  "head_pose": "right",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 124.0,
+  "attention": 59.93,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 126.0,
+  "attention": 51.06,
+  "head_pose": "right",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 128.0,
+  "attention": 59.93,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 130.0,
+  "attention": 65.0,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 132.0,
+  "attention": 56.81,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 134.0,
+  "attention": 54.72,
+  "head_pose": "down",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 136.0,
+  "attention": 54.31,
+  "head_pose": "right",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 138.0,
+  "attention": 53.45,
+  "head_pose": "down",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 140.0,
+  "attention": 51.27,
+  "head_pose": "left",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 142.0,
+  "attention": 57.77,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 144.0,
+  "attention": 66.63,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 146.0,
+  "attention": 57.93,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 148.0,
+  "attention": 54.87,
+  "head_pose": "down",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 150.0,
+  "attention": 59.48,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 152.0,
+  "attention": 58.4,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 154.0,
+  "attention": 52.59,
+  "head_pose": "down",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 156.0,
+  "attention": 49.81,
+  "head_pose": "down",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 158.0,
+  "attention": 66.29,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 160.0,
+  "attention": 54.05,
+  "head_pose": "down",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 162.0,
+  "attention": 52.39,
+  "head_pose": "right",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 164.0,
+  "attention": 50.22,
+  "head_pose": "right",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 166.0,
+  "attention": 58.7,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 168.0,
+  "attention": 55.44,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 170.0,
+  "attention": 56.1,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 172.0,
+  "attention": 49.25,
+  "head_pose": "down",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 174.0,
+  "attention": 54.2,
+  "head_pose": "right",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 176.0,
+  "attention": 54.5,
+  "head_pose": "down",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 178.0,
+  "attention": 53.38,
+  "head_pose": "left",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 180.0,
+  "attention": 56.74,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 182.0,
+  "attention": 52.38,
+  "head_pose": "right",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 184.0,
+  "attention": 54.38,
+  "head_pose": "down",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 186.0,
+  "attention": 66.16,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 188.0,
+  "attention": 59.63,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 190.0,
+  "attention": 59.25,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 192.0,
+  "attention": 60.22,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 194.0,
+  "attention": 60.78,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 196.0,
+  "attention": 54.12,
+  "head_pose": "left",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 198.0,
+  "attention": 55.77,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 200.0,
+  "attention": 45.7,
+  "head_pose": "down",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 202.0,
+  "attention": 52.33,
+  "head_pose": "down",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 204.0,
+  "attention": 54.3,
+  "head_pose": "right",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 206.0,
+  "attention": 57.83,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 208.0,
+  "attention": 52.87,
+  "head_pose": "right",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 210.0,
+  "attention": 46.97,
+  "head_pose": "right",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 212.0,
+  "attention": 67.02,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 214.0,
+  "attention": 66.09,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 216.0,
+  "attention": 63.47,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 218.0,
+  "attention": 62.38,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 220.0,
+  "attention": 51.47,
+  "head_pose": "down",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 222.0,
+  "attention": 59.88,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 224.0,
+  "attention": 57.89,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 226.0,
+  "attention": 53.27,
+  "head_pose": "right",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 228.0,
+  "attention": 53.75,
+  "head_pose": "down",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 230.0,
+  "attention": 46.02,
+  "head_pose": "down",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 232.0,
+  "attention": 52.57,
+  "head_pose": "left",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 234.0,
+  "attention": 59.35,
+  "head_pose": "forward",
+  "gaze": "screen"
+ },
+ {
+  "timestamp": 236.0,
+  "attention": 45.71,
+  "head_pose": "right",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 238.0,
+  "attention": 52.25,
+  "head_pose": "down",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 240.0,
+  "attention": 52.6,
+  "head_pose": "right",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 242.0,
+  "attention": 43.23,
+  "head_pose": "right",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 244.0,
+  "attention": 52.42,
+  "head_pose": "right",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 246.0,
+  "attention": 47.66,
+  "head_pose": "left",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 248.0,
+  "attention": 45.1,
+  "head_pose": "left",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 250.0,
+  "attention": 51.96,
+  "head_pose": "left",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 252.0,
+  "attention": 48.9,
+  "head_pose": "left",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 254.0,
+  "attention": 52.02,
+  "head_pose": "right",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 256.0,
+  "attention": 40.68,
+  "head_pose": "right",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 258.0,
+  "attention": 50.87,
+  "head_pose": "down",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 260.0,
+  "attention": 42.25,
+  "head_pose": "down",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 262.0,
+  "attention": 43.48,
+  "head_pose": "down",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 264.0,
+  "attention": 38.87,
+  "head_pose": "left",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 266.0,
+  "attention": 47.51,
+  "head_pose": "down",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 268.0,
+  "attention": 50.19,
+  "head_pose": "right",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 270.0,
+  "attention": 42.55,
+  "head_pose": "left",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 272.0,
+  "attention": 42.62,
+  "head_pose": "left",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 274.0,
+  "attention": 45.41,
+  "head_pose": "left",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 276.0,
+  "attention": 39.96,
+  "head_pose": "left",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 278.0,
+  "attention": 39.5,
+  "head_pose": "right",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 280.0,
+  "attention": 51.1,
+  "head_pose": "right",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 282.0,
+  "attention": 40.03,
+  "head_pose": "down",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 284.0,
+  "attention": 37.79,
+  "head_pose": "right",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 286.0,
+  "attention": 42.62,
+  "head_pose": "down",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 288.0,
+  "attention": 49.57,
+  "head_pose": "left",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 290.0,
+  "attention": 48.62,
+  "head_pose": "left",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 292.0,
+  "attention": 47.15,
+  "head_pose": "right",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 294.0,
+  "attention": 43.66,
+  "head_pose": "right",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 296.0,
+  "attention": 32.23,
+  "head_pose": "down",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 298.0,
+  "attention": 43.65,
+  "head_pose": "left",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 300.0,
+  "attention": 47.1,
+  "head_pose": "right",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 302.0,
+  "attention": 48.67,
+  "head_pose": "right",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 304.0,
+  "attention": 39.69,
+  "head_pose": "right",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 306.0,
+  "attention": 38.5,
+  "head_pose": "down",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 308.0,
+  "attention": 47.34,
+  "head_pose": "right",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 310.0,
+  "attention": 48.74,
+  "head_pose": "right",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 312.0,
+  "attention": 46.87,
+  "head_pose": "left",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 314.0,
+  "attention": 46.34,
+  "head_pose": "left",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 316.0,
+  "attention": 36.88,
+  "head_pose": "down",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 318.0,
+  "attention": 48.79,
+  "head_pose": "down",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 320.0,
+  "attention": 36.94,
+  "head_pose": "down",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 322.0,
+  "attention": 41.67,
+  "head_pose": "down",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 324.0,
+  "attention": 34.07,
+  "head_pose": "right",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 326.0,
+  "attention": 45.14,
+  "head_pose": "left",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 328.0,
+  "attention": 31.19,
+  "head_pose": "left",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 330.0,
+  "attention": 26.01,
+  "head_pose": "down",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 332.0,
+  "attention": 42.18,
+  "head_pose": "down",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 334.0,
+  "attention": 38.05,
+  "head_pose": "left",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 336.0,
+  "attention": 44.63,
+  "head_pose": "down",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 338.0,
+  "attention": 22.02,
+  "head_pose": "right",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 340.0,
+  "attention": 46.72,
+  "head_pose": "left",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 342.0,
+  "attention": 35.57,
+  "head_pose": "right",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 344.0,
+  "attention": 30.62,
+  "head_pose": "left",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 346.0,
+  "attention": 32.44,
+  "head_pose": "down",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 348.0,
+  "attention": 25.81,
+  "head_pose": "right",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 350.0,
+  "attention": 33.78,
+  "head_pose": "left",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 352.0,
+  "attention": 29.82,
+  "head_pose": "right",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 354.0,
+  "attention": 43.11,
+  "head_pose": "right",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 356.0,
+  "attention": 33.58,
+  "head_pose": "down",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 358.0,
+  "attention": 39.08,
+  "head_pose": "down",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 360.0,
+  "attention": 30.85,
+  "head_pose": "down",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 362.0,
+  "attention": 40.05,
+  "head_pose": "down",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 364.0,
+  "attention": 33.58,
+  "head_pose": "down",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 366.0,
+  "attention": 27.64,
+  "head_pose": "down",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 368.0,
+  "attention": 41.49,
+  "head_pose": "down",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 370.0,
+  "attention": 31.18,
+  "head_pose": "left",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 372.0,
+  "attention": 36.65,
+  "head_pose": "left",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 374.0,
+  "attention": 31.83,
+  "head_pose": "right",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 376.0,
+  "attention": 34.24,
+  "head_pose": "right",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 378.0,
+  "attention": 30.08,
+  "head_pose": "down",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 380.0,
+  "attention": 25.88,
+  "head_pose": "right",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 382.0,
+  "attention": 26.58,
+  "head_pose": "down",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 384.0,
+  "attention": 20.58,
+  "head_pose": "down",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 386.0,
+  "attention": 27.04,
+  "head_pose": "left",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 388.0,
+  "attention": 36.93,
+  "head_pose": "right",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 390.0,
+  "attention": 25.66,
+  "head_pose": "right",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 392.0,
+  "attention": 35.12,
+  "head_pose": "left",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 394.0,
+  "attention": 23.07,
+  "head_pose": "down",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 396.0,
+  "attention": 36.0,
+  "head_pose": "down",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 398.0,
+  "attention": 27.66,
+  "head_pose": "right",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 400.0,
+  "attention": 21.41,
+  "head_pose": "left",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 402.0,
+  "attention": 21.05,
+  "head_pose": "down",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 404.0,
+  "attention": 25.45,
+  "head_pose": "left",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 406.0,
+  "attention": 20.77,
+  "head_pose": "right",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 408.0,
+  "attention": 18.81,
+  "head_pose": "down",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 410.0,
+  "attention": 29.03,
+  "head_pose": "left",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 412.0,
+  "attention": 27.34,
+  "head_pose": "down",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 414.0,
+  "attention": 17.17,
+  "head_pose": "right",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 416.0,
+  "attention": 35.2,
+  "head_pose": "down",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 418.0,
+  "attention": 24.61,
+  "head_pose": "down",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 420.0,
+  "attention": 31.98,
+  "head_pose": "right",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 422.0,
+  "attention": 23.9,
+  "head_pose": "right",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 424.0,
+  "attention": 32.98,
+  "head_pose": "down",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 426.0,
+  "attention": 38.09,
+  "head_pose": "down",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 428.0,
+  "attention": 22.31,
+  "head_pose": "right",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 430.0,
+  "attention": 26.74,
+  "head_pose": "down",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 432.0,
+  "attention": 26.11,
+  "head_pose": "left",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 434.0,
+  "attention": 29.29,
+  "head_pose": "left",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 436.0,
+  "attention": 27.08,
+  "head_pose": "right",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 438.0,
+  "attention": 33.58,
+  "head_pose": "left",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 440.0,
+  "attention": 26.84,
+  "head_pose": "right",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 442.0,
+  "attention": 37.11,
+  "head_pose": "left",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 444.0,
+  "attention": 26.03,
+  "head_pose": "down",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 446.0,
+  "attention": 24.83,
+  "head_pose": "down",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 448.0,
+  "attention": 29.67,
+  "head_pose": "down",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 450.0,
+  "attention": 31.84,
+  "head_pose": "right",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 452.0,
+  "attention": 17.63,
+  "head_pose": "down",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 454.0,
+  "attention": 23.34,
+  "head_pose": "left",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 456.0,
+  "attention": 30.63,
+  "head_pose": "right",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 458.0,
+  "attention": 15.68,
+  "head_pose": "right",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 460.0,
+  "attention": 30.81,
+  "head_pose": "down",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 462.0,
+  "attention": 22.69,
+  "head_pose": "right",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 464.0,
+  "attention": 33.65,
+  "head_pose": "left",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 466.0,
+  "attention": 26.71,
+  "head_pose": "down",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 468.0,
+  "attention": 35.25,
+  "head_pose": "down",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 470.0,
+  "attention": 28.68,
+  "head_pose": "down",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 472.0,
+  "attention": 35.85,
+  "head_pose": "right",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 474.0,
+  "attention": 19.36,
+  "head_pose": "down",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 476.0,
+  "attention": 27.57,
+  "head_pose": "down",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 478.0,
+  "attention": 33.14,
+  "head_pose": "down",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 480.0,
+  "attention": 36.51,
+  "head_pose": "down",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 482.0,
+  "attention": 25.82,
+  "head_pose": "right",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 484.0,
+  "attention": 20.25,
+  "head_pose": "down",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 486.0,
+  "attention": 25.17,
+  "head_pose": "down",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 488.0,
+  "attention": 26.01,
+  "head_pose": "left",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 490.0,
+  "attention": 31.44,
+  "head_pose": "down",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 492.0,
+  "attention": 39.24,
+  "head_pose": "left",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 494.0,
+  "attention": 27.07,
+  "head_pose": "right",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 496.0,
+  "attention": 41.75,
+  "head_pose": "right",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 498.0,
+  "attention": 27.1,
+  "head_pose": "right",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 500.0,
+  "attention": 25.49,
+  "head_pose": "left",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 502.0,
+  "attention": 27.83,
+  "head_pose": "left",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 504.0,
+  "attention": 26.14,
+  "head_pose": "down",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 506.0,
+  "attention": 27.5,
+  "head_pose": "right",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 508.0,
+  "attention": 23.95,
+  "head_pose": "down",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 510.0,
+  "attention": 26.78,
+  "head_pose": "left",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 512.0,
+  "attention": 32.18,
+  "head_pose": "down",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 514.0,
+  "attention": 35.68,
+  "head_pose": "right",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 516.0,
+  "attention": 25.81,
+  "head_pose": "right",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 518.0,
+  "attention": 28.31,
+  "head_pose": "right",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 520.0,
+  "attention": 37.28,
+  "head_pose": "right",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 522.0,
+  "attention": 28.7,
+  "head_pose": "down",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 524.0,
+  "attention": 35.09,
+  "head_pose": "down",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 526.0,
+  "attention": 35.74,
+  "head_pose": "right",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 528.0,
+  "attention": 31.11,
+  "head_pose": "left",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 530.0,
+  "attention": 35.43,
+  "head_pose": "down",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 532.0,
+  "attention": 30.4,
+  "head_pose": "left",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 534.0,
+  "attention": 35.37,
+  "head_pose": "left",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 536.0,
+  "attention": 22.44,
+  "head_pose": "right",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 538.0,
+  "attention": 31.75,
+  "head_pose": "left",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 540.0,
+  "attention": 26.44,
+  "head_pose": "right",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 542.0,
+  "attention": 32.87,
+  "head_pose": "left",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 544.0,
+  "attention": 46.2,
+  "head_pose": "right",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 546.0,
+  "attention": 29.39,
+  "head_pose": "right",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 548.0,
+  "attention": 37.49,
+  "head_pose": "down",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 550.0,
+  "attention": 29.56,
+  "head_pose": "right",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 552.0,
+  "attention": 32.97,
+  "head_pose": "down",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 554.0,
+  "attention": 37.59,
+  "head_pose": "down",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 556.0,
+  "attention": 26.74,
+  "head_pose": "down",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 558.0,
+  "attention": 29.54,
+  "head_pose": "right",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 560.0,
+  "attention": 40.48,
+  "head_pose": "left",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 562.0,
+  "attention": 33.96,
+  "head_pose": "right",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 564.0,
+  "attention": 29.91,
+  "head_pose": "down",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 566.0,
+  "attention": 35.02,
+  "head_pose": "right",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 568.0,
+  "attention": 39.97,
+  "head_pose": "down",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 570.0,
+  "attention": 32.1,
+  "head_pose": "down",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 572.0,
+  "attention": 36.29,
+  "head_pose": "right",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 574.0,
+  "attention": 40.85,
+  "head_pose": "down",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 576.0,
+  "attention": 46.53,
+  "head_pose": "left",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 578.0,
+  "attention": 27.14,
+  "head_pose": "left",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 580.0,
+  "attention": 36.54,
+  "head_pose": "left",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 582.0,
+  "attention": 30.05,
+  "head_pose": "right",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 584.0,
+  "attention": 30.92,
+  "head_pose": "right",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 586.0,
+  "attention": 42.85,
+  "head_pose": "down",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 588.0,
+  "attention": 51.3,
+  "head_pose": "down",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 590.0,
+  "attention": 38.45,
+  "head_pose": "right",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 592.0,
+  "attention": 48.9,
+  "head_pose": "down",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 594.0,
+  "attention": 34.86,
+  "head_pose": "down",
+  "gaze": "notebook"
+ },
+ {
+  "timestamp": 596.0,
+  "attention": 35.71,
+  "head_pose": "left",
+  "gaze": "down"
+ },
+ {
+  "timestamp": 598.0,
+  "attention": 37.07,
+  "head_pose": "left",
+  "gaze": "left"
+ },
+ {
+  "timestamp": 600.0,
+  "attention": 41.6,
+  "head_pose": "left",
+  "gaze": "down"
+ }
+]

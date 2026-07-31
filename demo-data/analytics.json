@@ -1,0 +1,2560 @@
+{
+ "session": {
+  "session_id": 1,
+  "name": "Demo lesson",
+  "source": "synthetic",
+  "status": "completed",
+  "started_at": "2026-07-21T12:46:33.625776",
+  "ended_at": "2026-07-21T12:46:33.894377",
+  "fps": 0.5,
+  "frames_processed": 301
+ },
+ "timeline": [
+  {
+   "timestamp": 0.0,
+   "avg_attention": 63.99,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 2.0,
+   "avg_attention": 64.97,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 4.0,
+   "avg_attention": 62.88,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 6.0,
+   "avg_attention": 67.3,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 8.0,
+   "avg_attention": 68.76,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 10.0,
+   "avg_attention": 69.13,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 12.0,
+   "avg_attention": 67.08,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 14.0,
+   "avg_attention": 66.91,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 2,
+   "alert": false
+  },
+  {
+   "timestamp": 16.0,
+   "avg_attention": 66.92,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 18.0,
+   "avg_attention": 66.95,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 20.0,
+   "avg_attention": 67.01,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 22.0,
+   "avg_attention": 64.87,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 24.0,
+   "avg_attention": 70.71,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 26.0,
+   "avg_attention": 69.15,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 28.0,
+   "avg_attention": 68.52,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 30.0,
+   "avg_attention": 68.2,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 1,
+   "alert": false
+  },
+  {
+   "timestamp": 32.0,
+   "avg_attention": 69.88,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 34.0,
+   "avg_attention": 69.33,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 36.0,
+   "avg_attention": 69.86,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 38.0,
+   "avg_attention": 72.83,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 1,
+   "alert": false
+  },
+  {
+   "timestamp": 40.0,
+   "avg_attention": 68.15,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 42.0,
+   "avg_attention": 67.71,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 1,
+   "alert": false
+  },
+  {
+   "timestamp": 44.0,
+   "avg_attention": 74.24,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 46.0,
+   "avg_attention": 69.64,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 48.0,
+   "avg_attention": 70.7,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 50.0,
+   "avg_attention": 67.31,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 52.0,
+   "avg_attention": 69.86,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 54.0,
+   "avg_attention": 71.56,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 1,
+   "alert": false
+  },
+  {
+   "timestamp": 56.0,
+   "avg_attention": 76.72,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 58.0,
+   "avg_attention": 72.05,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 60.0,
+   "avg_attention": 78.65,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 62.0,
+   "avg_attention": 72.41,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 1,
+   "alert": false
+  },
+  {
+   "timestamp": 64.0,
+   "avg_attention": 72.46,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 66.0,
+   "avg_attention": 71.43,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 68.0,
+   "avg_attention": 71.86,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 1,
+   "alert": false
+  },
+  {
+   "timestamp": 70.0,
+   "avg_attention": 75.17,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 1,
+   "alert": false
+  },
+  {
+   "timestamp": 72.0,
+   "avg_attention": 68.85,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 74.0,
+   "avg_attention": 71.43,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 76.0,
+   "avg_attention": 72.71,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 78.0,
+   "avg_attention": 72.56,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 80.0,
+   "avg_attention": 73.96,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 82.0,
+   "avg_attention": 73.24,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 1,
+   "alert": false
+  },
+  {
+   "timestamp": 84.0,
+   "avg_attention": 75.03,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 86.0,
+   "avg_attention": 75.31,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 88.0,
+   "avg_attention": 73.62,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 1,
+   "alert": false
+  },
+  {
+   "timestamp": 90.0,
+   "avg_attention": 72.29,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 92.0,
+   "avg_attention": 72.77,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 94.0,
+   "avg_attention": 77.51,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 96.0,
+   "avg_attention": 78.11,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 98.0,
+   "avg_attention": 73.69,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 100.0,
+   "avg_attention": 74.57,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 102.0,
+   "avg_attention": 78.11,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 104.0,
+   "avg_attention": 77.65,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 106.0,
+   "avg_attention": 75.74,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 108.0,
+   "avg_attention": 77.39,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 110.0,
+   "avg_attention": 77.01,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 112.0,
+   "avg_attention": 75.22,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 114.0,
+   "avg_attention": 77.4,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 116.0,
+   "avg_attention": 78.65,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 118.0,
+   "avg_attention": 77.0,
+   "students_present": 7,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 120.0,
+   "avg_attention": 79.7,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 122.0,
+   "avg_attention": 77.59,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 124.0,
+   "avg_attention": 80.87,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 126.0,
+   "avg_attention": 78.88,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 128.0,
+   "avg_attention": 77.04,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 2,
+   "alert": false
+  },
+  {
+   "timestamp": 130.0,
+   "avg_attention": 82.53,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 132.0,
+   "avg_attention": 78.07,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 1,
+   "alert": false
+  },
+  {
+   "timestamp": 134.0,
+   "avg_attention": 80.02,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 136.0,
+   "avg_attention": 81.84,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 138.0,
+   "avg_attention": 79.44,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 140.0,
+   "avg_attention": 78.99,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 142.0,
+   "avg_attention": 80.32,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 144.0,
+   "avg_attention": 79.74,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 146.0,
+   "avg_attention": 77.28,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 148.0,
+   "avg_attention": 80.0,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 150.0,
+   "avg_attention": 80.15,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 152.0,
+   "avg_attention": 83.14,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 154.0,
+   "avg_attention": 79.46,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 156.0,
+   "avg_attention": 78.23,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 1,
+   "alert": false
+  },
+  {
+   "timestamp": 158.0,
+   "avg_attention": 80.41,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 160.0,
+   "avg_attention": 79.5,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 162.0,
+   "avg_attention": 80.22,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 164.0,
+   "avg_attention": 81.61,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 166.0,
+   "avg_attention": 77.95,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 1,
+   "alert": false
+  },
+  {
+   "timestamp": 168.0,
+   "avg_attention": 77.31,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 170.0,
+   "avg_attention": 80.55,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 172.0,
+   "avg_attention": 80.67,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 174.0,
+   "avg_attention": 77.22,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 1,
+   "alert": false
+  },
+  {
+   "timestamp": 176.0,
+   "avg_attention": 80.73,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 178.0,
+   "avg_attention": 79.64,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 180.0,
+   "avg_attention": 78.78,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 182.0,
+   "avg_attention": 78.86,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 184.0,
+   "avg_attention": 80.18,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 186.0,
+   "avg_attention": 79.37,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 188.0,
+   "avg_attention": 77.66,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 190.0,
+   "avg_attention": 78.71,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 192.0,
+   "avg_attention": 79.24,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 194.0,
+   "avg_attention": 79.64,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 1,
+   "alert": false
+  },
+  {
+   "timestamp": 196.0,
+   "avg_attention": 79.28,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 198.0,
+   "avg_attention": 75.15,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 200.0,
+   "avg_attention": 78.47,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 202.0,
+   "avg_attention": 77.31,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 204.0,
+   "avg_attention": 78.0,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 1,
+   "alert": false
+  },
+  {
+   "timestamp": 206.0,
+   "avg_attention": 80.32,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 208.0,
+   "avg_attention": 76.52,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 1,
+   "alert": false
+  },
+  {
+   "timestamp": 210.0,
+   "avg_attention": 77.41,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 1,
+   "alert": false
+  },
+  {
+   "timestamp": 212.0,
+   "avg_attention": 76.0,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 214.0,
+   "avg_attention": 78.64,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 216.0,
+   "avg_attention": 80.5,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 218.0,
+   "avg_attention": 77.06,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 220.0,
+   "avg_attention": 76.16,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 222.0,
+   "avg_attention": 76.5,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 224.0,
+   "avg_attention": 77.43,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 226.0,
+   "avg_attention": 77.27,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 1,
+   "alert": false
+  },
+  {
+   "timestamp": 228.0,
+   "avg_attention": 78.87,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 230.0,
+   "avg_attention": 73.7,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 1,
+   "alert": false
+  },
+  {
+   "timestamp": 232.0,
+   "avg_attention": 74.4,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 234.0,
+   "avg_attention": 74.07,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 1,
+   "alert": false
+  },
+  {
+   "timestamp": 236.0,
+   "avg_attention": 73.96,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 238.0,
+   "avg_attention": 80.22,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 240.0,
+   "avg_attention": 73.3,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 242.0,
+   "avg_attention": 72.06,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 244.0,
+   "avg_attention": 74.13,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 246.0,
+   "avg_attention": 74.06,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 248.0,
+   "avg_attention": 76.73,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 250.0,
+   "avg_attention": 75.26,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 252.0,
+   "avg_attention": 75.29,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 254.0,
+   "avg_attention": 75.38,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 256.0,
+   "avg_attention": 72.03,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 258.0,
+   "avg_attention": 69.73,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 260.0,
+   "avg_attention": 69.43,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 1,
+   "alert": false
+  },
+  {
+   "timestamp": 262.0,
+   "avg_attention": 74.02,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 264.0,
+   "avg_attention": 71.91,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 266.0,
+   "avg_attention": 73.75,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 268.0,
+   "avg_attention": 70.11,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 270.0,
+   "avg_attention": 74.55,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 272.0,
+   "avg_attention": 72.7,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 274.0,
+   "avg_attention": 68.16,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 276.0,
+   "avg_attention": 68.71,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 278.0,
+   "avg_attention": 67.66,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 1,
+   "alert": false
+  },
+  {
+   "timestamp": 280.0,
+   "avg_attention": 70.47,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 282.0,
+   "avg_attention": 67.18,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 284.0,
+   "avg_attention": 66.1,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 286.0,
+   "avg_attention": 66.31,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 288.0,
+   "avg_attention": 71.59,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 290.0,
+   "avg_attention": 67.82,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 292.0,
+   "avg_attention": 69.12,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 294.0,
+   "avg_attention": 70.38,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 296.0,
+   "avg_attention": 68.52,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 298.0,
+   "avg_attention": 67.93,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 300.0,
+   "avg_attention": 66.58,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 302.0,
+   "avg_attention": 69.12,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 304.0,
+   "avg_attention": 68.8,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 306.0,
+   "avg_attention": 65.44,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 308.0,
+   "avg_attention": 63.95,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 310.0,
+   "avg_attention": 65.01,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 312.0,
+   "avg_attention": 66.16,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 314.0,
+   "avg_attention": 64.38,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 1,
+   "alert": false
+  },
+  {
+   "timestamp": 316.0,
+   "avg_attention": 62.65,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 318.0,
+   "avg_attention": 65.96,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 320.0,
+   "avg_attention": 63.05,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 322.0,
+   "avg_attention": 64.48,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 324.0,
+   "avg_attention": 64.28,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 326.0,
+   "avg_attention": 65.37,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 328.0,
+   "avg_attention": 61.56,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 1,
+   "alert": false
+  },
+  {
+   "timestamp": 330.0,
+   "avg_attention": 63.94,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 332.0,
+   "avg_attention": 62.49,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 334.0,
+   "avg_attention": 59.27,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 336.0,
+   "avg_attention": 65.36,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 1,
+   "alert": false
+  },
+  {
+   "timestamp": 338.0,
+   "avg_attention": 61.8,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 340.0,
+   "avg_attention": 61.18,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 342.0,
+   "avg_attention": 58.96,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 344.0,
+   "avg_attention": 57.98,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 346.0,
+   "avg_attention": 61.38,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 348.0,
+   "avg_attention": 56.83,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 350.0,
+   "avg_attention": 56.17,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 352.0,
+   "avg_attention": 60.23,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 354.0,
+   "avg_attention": 59.81,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 356.0,
+   "avg_attention": 61.73,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 358.0,
+   "avg_attention": 57.66,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 360.0,
+   "avg_attention": 57.71,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 362.0,
+   "avg_attention": 61.17,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 364.0,
+   "avg_attention": 63.7,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 366.0,
+   "avg_attention": 56.9,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 368.0,
+   "avg_attention": 58.87,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 370.0,
+   "avg_attention": 56.39,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 372.0,
+   "avg_attention": 58.43,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 374.0,
+   "avg_attention": 55.08,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 376.0,
+   "avg_attention": 58.4,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 378.0,
+   "avg_attention": 56.55,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 380.0,
+   "avg_attention": 55.21,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 382.0,
+   "avg_attention": 55.26,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 384.0,
+   "avg_attention": 53.29,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 386.0,
+   "avg_attention": 54.57,
+   "students_present": 8,
+   "phones_visible": 2,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 388.0,
+   "avg_attention": 57.03,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 390.0,
+   "avg_attention": 55.3,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 392.0,
+   "avg_attention": 55.57,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 394.0,
+   "avg_attention": 53.02,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 396.0,
+   "avg_attention": 54.2,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 398.0,
+   "avg_attention": 54.73,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 400.0,
+   "avg_attention": 55.12,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 402.0,
+   "avg_attention": 55.81,
+   "students_present": 8,
+   "phones_visible": 2,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 404.0,
+   "avg_attention": 52.33,
+   "students_present": 8,
+   "phones_visible": 2,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 406.0,
+   "avg_attention": 53.5,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 408.0,
+   "avg_attention": 51.06,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 410.0,
+   "avg_attention": 51.36,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 412.0,
+   "avg_attention": 55.76,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 414.0,
+   "avg_attention": 49.74,
+   "students_present": 8,
+   "phones_visible": 2,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 416.0,
+   "avg_attention": 53.13,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 418.0,
+   "avg_attention": 53.32,
+   "students_present": 8,
+   "phones_visible": 2,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 420.0,
+   "avg_attention": 53.85,
+   "students_present": 8,
+   "phones_visible": 2,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 422.0,
+   "avg_attention": 53.32,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 424.0,
+   "avg_attention": 52.87,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 426.0,
+   "avg_attention": 51.11,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 428.0,
+   "avg_attention": 50.64,
+   "students_present": 8,
+   "phones_visible": 3,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 430.0,
+   "avg_attention": 51.23,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 432.0,
+   "avg_attention": 53.54,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 434.0,
+   "avg_attention": 50.99,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 436.0,
+   "avg_attention": 56.42,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 438.0,
+   "avg_attention": 52.92,
+   "students_present": 8,
+   "phones_visible": 2,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 440.0,
+   "avg_attention": 51.17,
+   "students_present": 8,
+   "phones_visible": 2,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 442.0,
+   "avg_attention": 52.36,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 444.0,
+   "avg_attention": 52.91,
+   "students_present": 8,
+   "phones_visible": 2,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 446.0,
+   "avg_attention": 52.49,
+   "students_present": 8,
+   "phones_visible": 2,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 448.0,
+   "avg_attention": 52.64,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 450.0,
+   "avg_attention": 52.74,
+   "students_present": 8,
+   "phones_visible": 2,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 452.0,
+   "avg_attention": 52.13,
+   "students_present": 8,
+   "phones_visible": 2,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 454.0,
+   "avg_attention": 49.95,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 456.0,
+   "avg_attention": 56.36,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 458.0,
+   "avg_attention": 51.23,
+   "students_present": 8,
+   "phones_visible": 2,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 460.0,
+   "avg_attention": 53.54,
+   "students_present": 8,
+   "phones_visible": 2,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 462.0,
+   "avg_attention": 51.57,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 464.0,
+   "avg_attention": 53.58,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 466.0,
+   "avg_attention": 53.34,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 1,
+   "alert": false
+  },
+  {
+   "timestamp": 468.0,
+   "avg_attention": 54.1,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 470.0,
+   "avg_attention": 52.95,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 472.0,
+   "avg_attention": 54.21,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 474.0,
+   "avg_attention": 53.38,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 476.0,
+   "avg_attention": 52.67,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 478.0,
+   "avg_attention": 57.29,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 480.0,
+   "avg_attention": 55.17,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 482.0,
+   "avg_attention": 54.62,
+   "students_present": 8,
+   "phones_visible": 2,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 484.0,
+   "avg_attention": 51.32,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 486.0,
+   "avg_attention": 48.75,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 488.0,
+   "avg_attention": 51.88,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 490.0,
+   "avg_attention": 54.4,
+   "students_present": 8,
+   "phones_visible": 2,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 492.0,
+   "avg_attention": 53.87,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 494.0,
+   "avg_attention": 53.8,
+   "students_present": 8,
+   "phones_visible": 2,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 496.0,
+   "avg_attention": 55.31,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 498.0,
+   "avg_attention": 57.95,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 500.0,
+   "avg_attention": 52.18,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 502.0,
+   "avg_attention": 55.69,
+   "students_present": 8,
+   "phones_visible": 2,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 504.0,
+   "avg_attention": 56.41,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 506.0,
+   "avg_attention": 58.81,
+   "students_present": 8,
+   "phones_visible": 2,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 508.0,
+   "avg_attention": 53.59,
+   "students_present": 8,
+   "phones_visible": 2,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 510.0,
+   "avg_attention": 57.41,
+   "students_present": 8,
+   "phones_visible": 2,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 512.0,
+   "avg_attention": 54.63,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 514.0,
+   "avg_attention": 55.9,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 516.0,
+   "avg_attention": 53.36,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 518.0,
+   "avg_attention": 57.9,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 520.0,
+   "avg_attention": 53.41,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 522.0,
+   "avg_attention": 54.2,
+   "students_present": 8,
+   "phones_visible": 2,
+   "hands_raised": 1,
+   "alert": false
+  },
+  {
+   "timestamp": 524.0,
+   "avg_attention": 53.99,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 526.0,
+   "avg_attention": 53.17,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 1,
+   "alert": false
+  },
+  {
+   "timestamp": 528.0,
+   "avg_attention": 57.43,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 530.0,
+   "avg_attention": 57.55,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 532.0,
+   "avg_attention": 56.78,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 534.0,
+   "avg_attention": 54.95,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 536.0,
+   "avg_attention": 62.55,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 538.0,
+   "avg_attention": 55.47,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 540.0,
+   "avg_attention": 58.8,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 542.0,
+   "avg_attention": 62.15,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 544.0,
+   "avg_attention": 58.97,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 546.0,
+   "avg_attention": 59.41,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 548.0,
+   "avg_attention": 60.45,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 550.0,
+   "avg_attention": 56.19,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 552.0,
+   "avg_attention": 63.41,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 554.0,
+   "avg_attention": 60.32,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 556.0,
+   "avg_attention": 60.91,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 558.0,
+   "avg_attention": 56.98,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 560.0,
+   "avg_attention": 63.77,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 562.0,
+   "avg_attention": 58.97,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 564.0,
+   "avg_attention": 59.91,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 566.0,
+   "avg_attention": 63.47,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 568.0,
+   "avg_attention": 62.93,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 570.0,
+   "avg_attention": 62.28,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 572.0,
+   "avg_attention": 65.39,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 574.0,
+   "avg_attention": 64.37,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 576.0,
+   "avg_attention": 65.53,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 578.0,
+   "avg_attention": 63.27,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 580.0,
+   "avg_attention": 66.07,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 582.0,
+   "avg_attention": 64.43,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 584.0,
+   "avg_attention": 62.6,
+   "students_present": 8,
+   "phones_visible": 1,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 586.0,
+   "avg_attention": 65.54,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 588.0,
+   "avg_attention": 64.71,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 590.0,
+   "avg_attention": 67.08,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 1,
+   "alert": false
+  },
+  {
+   "timestamp": 592.0,
+   "avg_attention": 62.1,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 594.0,
+   "avg_attention": 63.78,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 596.0,
+   "avg_attention": 65.96,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 1,
+   "alert": false
+  },
+  {
+   "timestamp": 598.0,
+   "avg_attention": 63.99,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  },
+  {
+   "timestamp": 600.0,
+   "avg_attention": 65.46,
+   "students_present": 8,
+   "phones_visible": 0,
+   "hands_raised": 0,
+   "alert": false
+  }
+ ],
+ "students": [
+  {
+   "student_id": 1,
+   "track_id": 1,
+   "label": "Student 1",
+   "first_seen": 0.0,
+   "last_seen": 600.0,
+   "frames_seen": 301,
+   "avg_attention": 88.17,
+   "min_attention": 61.24,
+   "max_attention": 98.0,
+   "blink_total": 150,
+   "avg_blink_rate": 15.01,
+   "phone_usage_ratio": 0.0,
+   "hand_raised_ratio": 0.0399,
+   "eyes_closed_ratio": 0.0,
+   "forward_ratio": 1.0
+  },
+  {
+   "student_id": 2,
+   "track_id": 2,
+   "label": "Student 2",
+   "first_seen": 0.0,
+   "last_seen": 600.0,
+   "frames_seen": 301,
+   "avg_attention": 57.92,
+   "min_attention": 29.37,
+   "max_attention": 84.23,
+   "blink_total": 150,
+   "avg_blink_rate": 15.13,
+   "phone_usage_ratio": 0.0033,
+   "hand_raised_ratio": 0.0,
+   "eyes_closed_ratio": 0.0,
+   "forward_ratio": 0.5449
+  },
+  {
+   "student_id": 3,
+   "track_id": 3,
+   "label": "Student 3",
+   "first_seen": 0.0,
+   "last_seen": 600.0,
+   "frames_seen": 301,
+   "avg_attention": 42.21,
+   "min_attention": 15.68,
+   "max_attention": 67.02,
+   "blink_total": 150,
+   "avg_blink_rate": 15.05,
+   "phone_usage_ratio": 0.1761,
+   "hand_raised_ratio": 0.0,
+   "eyes_closed_ratio": 0.0233,
+   "forward_ratio": 0.1561
+  },
+  {
+   "student_id": 4,
+   "track_id": 4,
+   "label": "Student 4",
+   "first_seen": 0.0,
+   "last_seen": 600.0,
+   "frames_seen": 301,
+   "avg_attention": 77.15,
+   "min_attention": 51.47,
+   "max_attention": 98.0,
+   "blink_total": 150,
+   "avg_blink_rate": 14.77,
+   "phone_usage_ratio": 0.0,
+   "hand_raised_ratio": 0.0233,
+   "eyes_closed_ratio": 0.0,
+   "forward_ratio": 0.9734
+  },
+  {
+   "student_id": 5,
+   "track_id": 5,
+   "label": "Student 5",
+   "first_seen": 0.0,
+   "last_seen": 600.0,
+   "frames_seen": 301,
+   "avg_attention": 84.62,
+   "min_attention": 55.58,
+   "max_attention": 98.0,
+   "blink_total": 150,
+   "avg_blink_rate": 14.95,
+   "phone_usage_ratio": 0.0,
+   "hand_raised_ratio": 0.0233,
+   "eyes_closed_ratio": 0.0,
+   "forward_ratio": 1.0
+  },
+  {
+   "student_id": 6,
+   "track_id": 6,
+   "label": "Student 6",
+   "first_seen": 0.0,
+   "last_seen": 600.0,
+   "frames_seen": 301,
+   "avg_attention": 47.6,
+   "min_attention": 19.96,
+   "max_attention": 75.11,
+   "blink_total": 150,
+   "avg_blink_rate": 15.07,
+   "phone_usage_ratio": 0.0831,
+   "hand_raised_ratio": 0.0,
+   "eyes_closed_ratio": 0.0133,
+   "forward_ratio": 0.3123
+  },
+  {
+   "student_id": 7,
+   "track_id": 7,
+   "label": "Student 7",
+   "first_seen": 0.0,
+   "last_seen": 600.0,
+   "frames_seen": 301,
+   "avg_attention": 49.67,
+   "min_attention": 21.35,
+   "max_attention": 74.95,
+   "blink_total": 150,
+   "avg_blink_rate": 15.26,
+   "phone_usage_ratio": 0.0797,
+   "hand_raised_ratio": 0.0,
+   "eyes_closed_ratio": 0.01,
+   "forward_ratio": 0.3721
+  },
+  {
+   "student_id": 8,
+   "track_id": 8,
+   "label": "Student 8",
+   "first_seen": 120.0,
+   "last_seen": 600.0,
+   "frames_seen": 241,
+   "avg_attention": 83.38,
+   "min_attention": 55.4,
+   "max_attention": 98.0,
+   "blink_total": 150,
+   "avg_blink_rate": 14.94,
+   "phone_usage_ratio": 0.0,
+   "hand_raised_ratio": 0.0332,
+   "eyes_closed_ratio": 0.0,
+   "forward_ratio": 1.0
+  }
+ ]
+}
