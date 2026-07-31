@@ -1,0 +1,20 @@
+{
+ "session": {
+  "session_id": 1,
+  "name": "Demo lesson",
+  "source": "synthetic",
+  "status": "completed",
+  "started_at": "2026-07-21T12:46:33.625776",
+  "ended_at": "2026-07-21T12:46:33.894377",
+  "fps": 0.5,
+  "frames_processed": 301
+ },
+ "class_average_attention": 65.91,
+ "students_detected": 8,
+ "total_samples": 2348,
+ "low_attention_alerts": 0,
+ "most_engaged": "Student 1",
+ "least_engaged": "Student 3",
+ "total_hand_raises": 4,
+ "phone_incidents": 4
+}

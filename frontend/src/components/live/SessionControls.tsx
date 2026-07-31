@@ -2,10 +2,11 @@ import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { AnimatePresence, motion } from "framer-motion";
 import { CheckCircle2, Download, Play, Square, Upload, XCircle } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
-import { api } from "../../api";
+import { api, DEMO_NOTICE, IS_STATIC_DEMO } from "../../api";
 import { Button } from "../ui/button";
 import { Card } from "../ui/card";
 import { Input } from "../ui/input";
+import { Tooltip, TooltipContent, TooltipTrigger } from "../ui/tooltip";
 
 interface SessionControlsProps {
   running: boolean;
@@ -54,6 +55,21 @@ export function SessionControls({ running }: SessionControlsProps) {
   });
 
   const busy = start.isPending || stop.isPending || upload.isPending;
+  const locked = IS_STATIC_DEMO;
+
+  // In the static demo the capture controls can't work — disable them and
+  // explain why on hover, rather than letting clicks fail mysteriously.
+  const withDemoTooltip = (node: React.ReactNode) =>
+    locked ? (
+      <Tooltip>
+        <TooltipTrigger asChild>
+          <span tabIndex={0}>{node}</span>
+        </TooltipTrigger>
+        <TooltipContent>{DEMO_NOTICE}</TooltipContent>
+      </Tooltip>
+    ) : (
+      node
+    );
 
   return (
     <Card className="no-print flex flex-wrap items-center gap-2.5 p-4">
@@ -68,7 +84,7 @@ export function SessionControls({ running }: SessionControlsProps) {
         value={source}
         onChange={(e) => setSource(e.target.value)}
         placeholder="0 = webcam, or a video path"
-        disabled={running || busy}
+        disabled={running || busy || locked}
         className="w-48"
       />
 
@@ -81,18 +97,22 @@ export function SessionControls({ running }: SessionControlsProps) {
           <Square aria-hidden /> Stop session
         </Button>
       ) : (
-        <Button disabled={busy} onClick={() => start.mutate()}>
-          <Play aria-hidden /> Start stream
-        </Button>
+        withDemoTooltip(
+          <Button disabled={busy || locked} onClick={() => start.mutate()}>
+            <Play aria-hidden /> Start stream
+          </Button>,
+        )
       )}
 
-      <Button
-        variant="outline"
-        disabled={busy || running}
-        onClick={() => fileInput.current?.click()}
-      >
-        <Upload aria-hidden /> Upload video
-      </Button>
+      {withDemoTooltip(
+        <Button
+          variant="outline"
+          disabled={busy || running || locked}
+          onClick={() => fileInput.current?.click()}
+        >
+          <Upload aria-hidden /> Upload video
+        </Button>,
+      )}
       <input
         ref={fileInput}
         type="file"
