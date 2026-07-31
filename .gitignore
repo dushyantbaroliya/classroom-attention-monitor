@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+.venv312/
+venv/
+.pytest_cache/
+.ruff_cache/
+data/
+yolo_weights/*.pt
+models/*.task
+models/*.tflite
+sample_videos/*.mp4
+sample_videos/*.avi
+node_modules/
+frontend/dist/
+.env
+*.log

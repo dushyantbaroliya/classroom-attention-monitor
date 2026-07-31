@@ -1,0 +1,31 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: docker/backend.Dockerfile
+    volumes:
+      - ./data:/app/data              # database, uploads, logs persist on host
+      - ./yolo_weights:/app/yolo_weights
+      - ./config.yaml:/app/config.yaml:ro
+      - ./sample_videos:/app/sample_videos:ro
+    # Webcam passthrough (Linux only) — uncomment to stream from a camera.
+    # On Windows/macOS analyze uploaded files instead, or run the backend natively.
+    # devices:
+    #   - /dev/video0:/dev/video0
+    ports:
+      - "8000:8000"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+
+  frontend:
+    build:
+      context: .
+      dockerfile: docker/frontend.Dockerfile
+    depends_on:
+      backend:
+        condition: service_healthy
+    ports:
+      - "5173:80"

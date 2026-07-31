@@ -1,0 +1,98 @@
+# =============================================================================
+# Classroom Attention Monitoring System - central configuration
+# All tunable behavior lives here. No paths or thresholds are hardcoded.
+# =============================================================================
+
+video:
+  source: 0                  # camera index (int) or path to a video file
+  width: 1280
+  height: 720
+  target_fps: 20             # pacing for live streams; files are processed as fast as possible
+  process_every_n: 1         # analyze every Nth frame (increase on slow CPUs)
+
+detection:
+  # backend "mediapipe" (default) runs torch-free via EfficientDet-Lite;
+  # "yolo" uses Ultralytics YOLO (needs torch, GPU-capable). Both detect
+  # persons (students) + cell phones.
+  backend: "mediapipe"
+  mediapipe_model_path: "models/efficientdet_lite2.tflite"
+  model_path: "yolo_weights/yolov8n.pt"   # used only when backend: yolo
+  face_model_path: null
+  device: "auto"             # auto | cpu | cuda | cuda:0 ...  (yolo only)
+  confidence: 0.35
+  iou: 0.45
+  person_class_id: 0
+  phone_class_id: 67
+  max_detections: 60
+
+mediapipe:
+  # Tasks API model bundles (download into models/ — gitignored). See README.
+  # MediaPipe 0.10.x removed the old mp.solutions API; these replace it.
+  face_landmarker_path: "models/face_landmarker.task"
+  pose_landmarker_path: "models/pose_landmarker_lite.task"
+  max_faces: 20
+  enable_pose: true          # hand-raise detection; set false to save CPU
+  min_face_confidence: 0.4
+  min_pose_confidence: 0.4
+  crop_margin: 0.1
+
+tracking:
+  track_high_thresh: 0.50    # first-stage association threshold (ByteTrack)
+  track_low_thresh: 0.10     # second-stage (low score) association threshold
+  new_track_thresh: 0.60     # min confidence to spawn a new track
+  match_iou_thresh: 0.20     # min IoU for a valid match
+  max_lost_frames: 60        # keep lost tracks around for re-identification
+  min_hits: 3                # frames before a track is confirmed
+
+head_pose:
+  yaw_left_deg: -20.0        # yaw below this   => "left"
+  yaw_right_deg: 20.0        # yaw above this   => "right"
+  pitch_up_deg: 15.0         # pitch above this => "up"
+  pitch_down_deg: -12.0      # pitch below this => "down"
+
+eyes:
+  ear_closed_threshold: 0.21 # EAR below this counts as closed
+  blink_min_frames: 2        # consecutive closed frames that count as a blink
+  drowsy_after_seconds: 2.0  # eyes closed longer than this => drowsy penalty
+
+gaze:
+  # Heuristic iris-position gaze. See README for documented limitations.
+  h_left_ratio: 0.40         # iris horizontal ratio below => looking left
+  h_right_ratio: 0.60        # iris horizontal ratio above => looking right
+  v_down_ratio: 0.62         # iris vertical ratio above  => looking down
+  notebook_pitch_deg: -25.0  # head pitch above this while gazing down => notebook
+
+hands:
+  raise_margin: 0.05         # wrist must be this fraction of bbox height above shoulder
+
+phone:
+  assoc_expand: 0.15         # expand person bbox by this fraction when matching phones
+  looking_pitch_deg: -10.0   # head pitch below this while phone visible => using phone
+
+scoring:
+  # Explainable weighted attention score, normalized to 0..100.
+  # "bonus" components raise the score but are not required to reach 100
+  # (a student should not need a raised hand to be fully attentive).
+  smoothing_alpha: 0.35      # exponential smoothing of the per-student score
+  weights:
+    head_forward:     { weight: 30 }
+    gaze_screen:      { weight: 25 }
+    eyes_open:        { weight: 15 }
+    hand_raised:      { weight: 10, bonus: true }
+    phone_detected:   { weight: -20 }
+    eyes_closed_long: { weight: -15 }
+
+analytics:
+  snapshot_interval_seconds: 2.0   # class-average timeline resolution
+  db_batch_size: 50                # frame rows committed per batch
+  low_attention_alert: 40.0        # class average below this triggers an alert flag
+
+storage:
+  database_url: "sqlite:///data/attention.db"
+  upload_dir: "data/uploads"
+  log_dir: "data/logs"
+
+server:
+  host: "0.0.0.0"
+  port: 8000
+  cors_origins: ["http://localhost:5173", "http://localhost:3000"]

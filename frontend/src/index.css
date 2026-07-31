@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ------------------------------------------------------------------ tokens */
+@layer base {
+  :root {
+    --background: 0 0% 98%;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --primary: 239 84% 67%; /* indigo-500 */
+    --primary-foreground: 0 0% 100%;
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+    --ring: 239 84% 67%;
+
+    --status-excellent: 160 84% 39%; /* emerald-600 */
+    --status-good: 199 89% 48%;      /* sky-500 */
+    --status-warning: 38 92% 50%;    /* amber-500 */
+    --status-critical: 350 89% 60%;  /* rose-500 */
+
+    --chart-grid: 240 5.9% 90%;
+  }
+
+  .dark {
+    --background: 240 10% 3.9%; /* ~#09090b */
+    --foreground: 0 0% 98%;
+    --card: 240 6% 8%;
+    --card-foreground: 0 0% 98%;
+    --muted: 240 3.7% 13%;
+    --muted-foreground: 240 5% 64.9%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --primary: 234 89% 74%; /* indigo-400: better contrast on dark */
+    --primary-foreground: 240 10% 3.9%;
+    --accent: 240 3.7% 13%;
+    --accent-foreground: 0 0% 98%;
+    --ring: 234 89% 74%;
+
+    --status-excellent: 158 64% 52%; /* emerald-400 */
+    --status-good: 198 93% 60%;      /* sky-400 */
+    --status-warning: 43 96% 56%;    /* amber-400 */
+    --status-critical: 351 95% 71%;  /* rose-400 */
+
+    --chart-grid: 240 3.7% 15.9%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
+
+  /* Accessible focus rings everywhere. */
+  :focus-visible {
+    @apply outline-none ring-2 ring-ring ring-offset-2 ring-offset-background;
+  }
+}
+
+/* --------------------------------------------------------------- utilities */
+@layer utilities {
+  /* Subtle glass surface used on sticky chrome (topbar, sidebar). */
+  .glass {
+    @apply bg-card/70 backdrop-blur-xl supports-[backdrop-filter]:bg-card/60;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Print styles for the Reports page. */
+@media print {
+  aside,
+  header.topbar,
+  .no-print {
+    display: none !important;
+  }
+  main {
+    padding: 0 !important;
+  }
+  body {
+    background: white !important;
+  }
+}
