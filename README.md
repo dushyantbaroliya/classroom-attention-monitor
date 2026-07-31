@@ -6,6 +6,10 @@ pose, blinks/drowsiness, gaze direction, phone usage and hand raises, fuses
 them into an **explainable, configurable attention score (0–100)**, and
 serves live video + analytics to a teacher-facing dashboard.
 
+**[▶ Live demo](https://dushyantbaroliya.github.io/classroom-attention-monitor/)** —
+the real dashboard running on a recorded session. Live webcam capture needs the
+Python pipeline running locally (see [Quick start](#quick-start-docker--recommended)).
+
 > ⚠️ This system estimates *behavior*, not cognition, and is a
 > decision-support tool — see [Ethical considerations](#ethical-considerations).
 
