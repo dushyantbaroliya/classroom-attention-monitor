@@ -173,7 +173,7 @@ def main() -> int:
     detected = totals["students"] > 0
     print("RESULT: models loaded and inference ran end-to-end.")
     if not detected:
-        print("NOTE:   no people detected — expected with synthetic frames.")
+        print("NOTE:   no people detected, expected with synthetic frames.")
         print("        Re-run with --source <video|0> for real detections.")
     return 0
 

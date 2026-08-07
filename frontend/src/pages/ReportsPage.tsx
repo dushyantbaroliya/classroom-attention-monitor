@@ -93,7 +93,7 @@ export function ReportsPage() {
                 </CardDescription>
               </div>
               <Badge variant={session?.status === "completed" ? "excellent" : "default"}>
-                {session?.status ?? "—"}
+                {session?.status ?? "-"}
               </Badge>
             </div>
           </CardHeader>
@@ -101,7 +101,7 @@ export function ReportsPage() {
             <dl className="grid grid-cols-2 gap-4 sm:grid-cols-4">
               <Stat
                 label="Class average"
-                value={statistics.data?.class_average_attention.toFixed(1) ?? "–"}
+                value={statistics.data?.class_average_attention.toFixed(1) ?? "-"}
               />
               <Stat
                 label="Students"
@@ -112,7 +112,7 @@ export function ReportsPage() {
                 value={
                   timeline.length
                     ? fmtClock(timeline[timeline.length - 1].timestamp)
-                    : "–"
+                    : "-"
                 }
               />
               <Stat
@@ -138,7 +138,7 @@ export function ReportsPage() {
             <p className="pt-2 text-xs leading-relaxed text-muted-foreground">
               This report reflects observable behavioral proxies (head
               orientation, eyelid aperture, gaze direction, phone visibility,
-              hand raises) — not measured cognitive attention. Use it as
+              hand raises), not measured cognitive attention. Use it as
               teaching feedback, never for grading or discipline.
             </p>
           </CardContent>
@@ -167,7 +167,7 @@ export function ReportsPage() {
           <CardHeader>
             <CardTitle>Attendance & engagement roster</CardTitle>
             <CardDescription>
-              Anonymous tracker identities — no face recognition performed
+              Anonymous tracker identities, no face recognition performed
             </CardDescription>
           </CardHeader>
           <div className="overflow-x-auto">

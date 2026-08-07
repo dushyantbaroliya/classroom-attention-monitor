@@ -14,9 +14,9 @@ function DemoBanner() {
     <div className="flex flex-wrap items-center justify-center gap-x-2 gap-y-1 border-b border-primary/20 bg-primary/10 px-4 py-2 text-center text-xs">
       <Info className="h-3.5 w-3.5 shrink-0 text-primary" aria-hidden />
       <span className="text-foreground">
-        <strong className="font-semibold">Interactive demo</strong> — real
-        analytics from a recorded session. Live webcam capture runs the Python
-        CV pipeline locally.
+        <strong className="font-semibold">Interactive demo</strong> showing
+        real analytics from a recorded session. Live webcam capture runs the
+        Python CV pipeline locally.
       </span>
       <a
         href={REPO_URL}

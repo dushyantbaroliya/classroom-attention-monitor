@@ -13,7 +13,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 WORKDIR /app
 
-# Torch-free MediaPipe backend by default — small image, no CUDA needed.
+# Torch-free MediaPipe backend by default, small image, no CUDA needed.
 # For the optional YOLO backend, also COPY + install requirements-yolo.txt.
 COPY requirements.txt .
 RUN pip install -r requirements.txt

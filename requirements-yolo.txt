@@ -1,5 +1,5 @@
 # Optional YOLO detector backend (set detection.backend: yolo in config.yaml).
-# Needs torch — GPU-capable. Install on top of requirements.txt:
+# Needs torch, GPU-capable. Install on top of requirements.txt:
 #     pip install -r requirements.txt -r requirements-yolo.txt
 # For CPU-only torch (smaller), add:  --extra-index-url https://download.pytorch.org/whl/cpu
 torch>=2.2

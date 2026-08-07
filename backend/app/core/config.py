@@ -162,7 +162,7 @@ def _absolutize_storage(config: AppConfig, base_dir: Path) -> None:
 def load_config(path: str | Path | None = None) -> AppConfig:
     config_path = Path(path or os.environ.get("CAM_CONFIG", DEFAULT_CONFIG_PATH))
     if not config_path.exists():
-        return AppConfig()  # all defaults — useful for tests
+        return AppConfig()  # all defaults, useful for tests
     with config_path.open("r", encoding="utf-8") as fh:
         raw = yaml.safe_load(fh) or {}
     config = AppConfig.model_validate(raw)

@@ -12,7 +12,7 @@ interface SessionControlsProps {
   running: boolean;
 }
 
-/** Start/stop live sessions, upload videos, export CSV — with inline toasts. */
+/** Start/stop live sessions, upload videos, export CSV, with inline toasts. */
 export function SessionControls({ running }: SessionControlsProps) {
   const [source, setSource] = useState("0");
   const [toast, setToast] = useState<{ ok: boolean; text: string } | null>(null);
@@ -57,7 +57,7 @@ export function SessionControls({ running }: SessionControlsProps) {
   const busy = start.isPending || stop.isPending || upload.isPending;
   const locked = IS_STATIC_DEMO;
 
-  // In the static demo the capture controls can't work — disable them and
+  // In the static demo the capture controls can't work, so disable them and
   // explain why on hover, rather than letting clicks fail mysteriously.
   const withDemoTooltip = (node: React.ReactNode) =>
     locked ? (

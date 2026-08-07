@@ -2,7 +2,7 @@
 
 The demo build has no backend, so the dashboard reads pre-baked JSON files
 instead of the REST API. These are produced by the *real* analytics
-aggregators, so the payload shapes match the live API exactly — the frontend
+aggregators, so the payload shapes match the live API exactly, the frontend
 only swaps its fetch layer, not its types or rendering.
 
     python scripts/export_demo_data.py [--session-id N]

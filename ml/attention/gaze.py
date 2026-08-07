@@ -10,7 +10,7 @@ eye's bounding corners:
     v_ratio: 0 = iris at the top lid, 1 = at the bottom lid
 
 and threshold those ratios into coarse categories, combined with head pitch
-to distinguish "notebook" (head down, gaze down — reading/writing) from
+to distinguish "notebook" (head down, gaze down, reading/writing) from
 plain "down".
 
 Documented limitations (see README "Gaze estimation limitations"):

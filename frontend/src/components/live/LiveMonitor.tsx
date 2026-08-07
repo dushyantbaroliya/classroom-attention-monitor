@@ -146,7 +146,7 @@ export function LiveMonitor({ frame, connected, running }: LiveMonitorProps) {
               title={running ? "Waiting for frames" : "No live session"}
               message={
                 running
-                  ? "The pipeline is warming up — the first annotated frame lands here."
+                  ? "The pipeline is warming up. The first annotated frame lands here."
                   : "Start a webcam stream or upload a video from the controls."
               }
               className="py-0"

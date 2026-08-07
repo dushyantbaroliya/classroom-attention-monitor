@@ -107,8 +107,8 @@ export function SettingsPage() {
                 <span className="font-medium text-foreground">
                   Behavior, not cognition.
                 </span>{" "}
-                Scores estimate observable proxies and carry real uncertainty —
-                they are not measurements of what a student is thinking.
+                Scores estimate observable proxies and carry real uncertainty.
+                They are not measurements of what a student is thinking.
               </li>
               <li className="rounded-xl border border-border p-3">
                 <span className="font-medium text-foreground">
@@ -135,7 +135,7 @@ export function SettingsPage() {
               <code className="rounded bg-muted px-1.5 py-0.5 font-mono text-[11px]">
                 config.yaml
               </code>{" "}
-              on the backend — detector confidence, tracker thresholds, head
+              on the backend: detector confidence, tracker thresholds, head
               pose and EAR cutoffs, gaze ratios, and the attention scoring
               weights. Edit that file and restart the API to apply changes;
               the dashboard picks them up automatically.

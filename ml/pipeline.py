@@ -7,7 +7,7 @@
 The pipeline is deliberately I/O-free: it takes a decoded frame and returns
 a FrameResult. Persistence, streaming and pacing live in the backend's
 PipelineRunner. Detector and analyzer are injected (Protocols), so the
-pipeline itself is unit-testable with fakes — no GPU or model downloads.
+pipeline itself is unit-testable with fakes, no GPU or model downloads.
 """
 from __future__ import annotations
 

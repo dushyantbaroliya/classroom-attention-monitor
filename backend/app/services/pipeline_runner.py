@@ -119,7 +119,7 @@ class PipelineRunner:
             self._run(source, session_id)
             if self._stop_event.is_set():
                 status = "stopped"
-        except Exception as exc:  # noqa: BLE001 — worker must never crash silently
+        except Exception as exc:  # noqa: BLE001, worker must never crash silently
             self._error = str(exc)
             status = "failed"
             log.exception("Pipeline session %s failed", session_id)

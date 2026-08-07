@@ -96,7 +96,7 @@ export function Topbar() {
             <DropdownMenuSeparator />
             {notifications.length === 0 ? (
               <p className="px-2.5 py-6 text-center text-xs text-muted-foreground">
-                Nothing yet — start a session to see activity.
+                Nothing yet. Start a session to see activity.
               </p>
             ) : (
               notifications.map((n, i) => (

@@ -4,7 +4,7 @@ Implements the core ByteTrack idea (Zhang et al., 2022) without external
 tracking dependencies:
 
 1. Associate HIGH-confidence detections with existing tracks (IoU + Hungarian).
-2. Associate remaining tracks with LOW-confidence detections — this is what
+2. Associate remaining tracks with LOW-confidence detections, this is what
    keeps students tracked through partial occlusion, when the detector's
    confidence dips but the person is still there.
 3. Unmatched high-confidence detections spawn new tracks; unmatched tracks
@@ -151,7 +151,7 @@ class ByteTracker:
         new_candidates = [remaining_high[i] for i in unmatched_high_idx2]
 
         # Stage 2 (the "byte" in ByteTrack): unmatched tracks vs LOW-confidence
-        # detections — recovers occluded/blurred students.
+        # detections, recovers occluded/blurred students.
         still_unmatched = [alive[i] for i in unmatched_t_idx]
         matches_low, unmatched_t_idx2, _ = _match(still_unmatched, low, self.match_iou_thresh)
         for ti, di in matches_low:

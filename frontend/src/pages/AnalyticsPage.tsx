@@ -56,7 +56,7 @@ export function AnalyticsPage() {
       <>
         <PageHeader title="Analytics" />
         <ErrorState
-          message="No analytics available — record a session first."
+          message="No analytics available yet. Record a session first."
           onRetry={() => analytics.refetch()}
         />
       </>
@@ -90,12 +90,12 @@ export function AnalyticsPage() {
         <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
           <OverviewTile
             label="Class average"
-            value={statistics.data?.class_average_attention.toFixed(1) ?? "–"}
+            value={statistics.data?.class_average_attention.toFixed(1) ?? "-"}
             hint="across all samples"
           />
           <OverviewTile
             label="Most attentive"
-            value={statistics.data?.most_engaged ?? "–"}
+            value={statistics.data?.most_engaged ?? "-"}
             hint={
               ranked[0] ? `${ranked[0].avg_attention.toFixed(0)} avg score` : ""
             }
@@ -103,7 +103,7 @@ export function AnalyticsPage() {
           />
           <OverviewTile
             label="Needs support"
-            value={statistics.data?.least_engaged ?? "–"}
+            value={statistics.data?.least_engaged ?? "-"}
             hint={
               ranked.length
                 ? `${ranked[ranked.length - 1].avg_attention.toFixed(0)} avg score`
@@ -134,7 +134,7 @@ export function AnalyticsPage() {
             <CardContent className="space-y-2.5">
               {insights.length === 0 ? (
                 <p className="py-6 text-center text-xs text-muted-foreground">
-                  Not enough data yet — insights appear once a session has a few
+                  Not enough data yet. Insights appear once a session has a few
                   minutes of samples.
                 </p>
               ) : (
@@ -172,7 +172,7 @@ export function AnalyticsPage() {
                 Recommendations
               </CardTitle>
               <CardDescription>
-                Suggestions for the teacher — interpret with classroom context
+                Suggestions for the teacher, best interpreted with classroom context
               </CardDescription>
             </CardHeader>
             <CardContent>
@@ -236,7 +236,7 @@ export function AnalyticsPage() {
 
         <ChartCard
           title="Blink trends"
-          description="Blink rate and eyes-closed share per student — a fatigue proxy"
+          description="Blink rate and eyes-closed share per student (a fatigue proxy)"
           loading={loading}
           empty={students.length === 0}
         >
@@ -247,7 +247,7 @@ export function AnalyticsPage() {
           <CardHeader>
             <CardTitle>Engagement heatmap</CardTitle>
             <CardDescription>
-              Every student across the session — darker means more attentive
+              Every student across the session. Darker means more attentive.
             </CardDescription>
           </CardHeader>
           <CardContent>
@@ -317,7 +317,7 @@ function buildRecommendations(
       `${struggling.length} student${struggling.length > 1 ? "s" : ""} averaged below 45 (${struggling
         .slice(0, 3)
         .map((s) => s.label)
-        .join(", ")}). A short check-in may help — these are behavioral signals, not proof of disengagement.`,
+        .join(", ")}). A short check-in may help. These are behavioral signals, not proof of disengagement.`,
     );
   }
   if (phoneUsers.length > 0) {
@@ -330,7 +330,7 @@ function buildRecommendations(
   );
   if (recs.length < 3) {
     recs.push(
-      "Engagement stayed stable — the current lesson pacing appears to be working well.",
+      "Engagement stayed stable, so the current lesson pacing appears to be working well.",
     );
   }
   return recs;

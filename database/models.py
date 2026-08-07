@@ -9,9 +9,9 @@ MonitoringSession  1 -- *  AttendanceRecord   (presence summary per student)
 
 Per-student attention timelines are derived on demand from FrameAnalysis
 (see analytics.aggregator.student_timeline) rather than materialized into a
-separate aggregate table — one source of truth, no write path to keep in sync.
+separate aggregate table, one source of truth, no write path to keep in sync.
 
-No face embeddings or identity data are stored anywhere — students are
+No face embeddings or identity data are stored anywhere, students are
 tracker ids only. A future opt-in face-recognition module could add a
 `students.external_identity` column without touching the rest of the schema.
 """

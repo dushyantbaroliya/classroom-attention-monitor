@@ -26,7 +26,7 @@ detection:
   max_detections: 60
 
 mediapipe:
-  # Tasks API model bundles (download into models/ — gitignored). See README.
+  # Tasks API model bundles (download into models/, gitignored). See README.
   # MediaPipe 0.10.x removed the old mp.solutions API; these replace it.
   face_landmarker_path: "models/face_landmarker.task"
   pose_landmarker_path: "models/pose_landmarker_lite.task"

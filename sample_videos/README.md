@@ -7,12 +7,12 @@ These clips are used to verify the pipeline end-to-end against real faces
 
 | File | Purpose |
 |---|---|
-| `classroom.mp4` | Seated students — detection, tracking, attendance, scoring |
-| `head-pose-face-detection-female-and-male.mp4` | Deliberate head turns — head pose, gaze and EAR stages |
+| `classroom.mp4` | Seated students: detection, tracking, attendance, scoring |
+| `head-pose-face-detection-female-and-male.mp4` | Deliberate head turns: head pose, gaze and EAR stages |
 
 Both are from Intel's [sample-videos](https://github.com/intel-iot-devkit/sample-videos)
 repository, licensed **CC-BY-4.0** (© Intel Corporation, used with attribution).
-They are gitignored — re-download them with:
+They are gitignored; re-download them with:
 
 ```bash
 BASE=https://raw.githubusercontent.com/intel-iot-devkit/sample-videos/master

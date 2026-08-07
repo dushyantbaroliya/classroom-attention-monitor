@@ -10,7 +10,7 @@ They are gitignored (binary, freely downloadable). Run once after cloning:
     python scripts/download_models.py
 
 The optional YOLO backend auto-downloads its own weights (yolov8n.pt) into
-yolo_weights/ on first inference — nothing to do here.
+yolo_weights/ on first inference, nothing to do here.
 """
 from __future__ import annotations
 

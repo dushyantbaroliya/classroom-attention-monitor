@@ -4,7 +4,7 @@ Uses the system browser (Edge on Windows, Chrome elsewhere) so no Chromium
 download is needed. The frontend dev server must be running on :5173 and the
 backend on :8000 with a seeded session (python scripts/seed_demo.py).
 
-Dev-only tool — install Playwright first (not in requirements.txt):
+Dev-only tool, install Playwright first (not in requirements.txt):
 
     pip install playwright
     python scripts/capture_screenshots.py

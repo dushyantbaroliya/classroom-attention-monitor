@@ -1,8 +1,8 @@
-# Runtime requirements (core — torch-free).
+# Runtime requirements (core, torch-free).
 #
 # The DEFAULT detector backend is MediaPipe (EfficientDet-Lite), so the whole
 # CV pipeline runs on just these packages plus the model bundles downloaded by
-# scripts/download_models.py — no torch/ultralytics needed.
+# scripts/download_models.py, no torch/ultralytics needed.
 #
 # Python: MediaPipe supports 3.9–3.12. Use Python 3.11 or 3.12 for the CV
 # stack (the Docker image pins 3.11). The API, analytics and test suite also

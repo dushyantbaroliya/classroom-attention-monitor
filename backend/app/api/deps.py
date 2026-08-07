@@ -1,7 +1,7 @@
 """FastAPI dependency injection: config, database sessions, runner.
 
 The app stores its singletons on `app.state`; these dependencies pull from
-there, which makes tests trivial — build an app with a test config and an
+there, which makes tests trivial, build an app with a test config and an
 in-memory database, no monkeypatching.
 """
 from __future__ import annotations

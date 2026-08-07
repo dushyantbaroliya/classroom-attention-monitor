@@ -68,7 +68,7 @@ export function StudentsTable({ students }: { students: StudentStats[] }) {
           return v > 0.02 ? (
             <Badge variant="critical">{pct(v)}</Badge>
           ) : (
-            <span className="text-muted-foreground">—</span>
+            <span className="text-muted-foreground">-</span>
           );
         },
       },
@@ -80,7 +80,7 @@ export function StudentsTable({ students }: { students: StudentStats[] }) {
           return v > 0 ? (
             <Badge variant="good">{pct(v, 1)}</Badge>
           ) : (
-            <span className="text-muted-foreground">—</span>
+            <span className="text-muted-foreground">-</span>
           );
         },
       },

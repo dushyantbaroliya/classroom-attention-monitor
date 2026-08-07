@@ -1,8 +1,8 @@
 """Hand-raise detection from MediaPipe Pose landmarks.
 
 A hand counts as raised when either wrist is clearly above its shoulder
-(image y grows downward, so "above" means smaller y). A small margin —
-a fraction of the person's bounding-box height — filters out hands resting
+(image y grows downward, so "above" means smaller y). A small margin,
+a fraction of the person's bounding-box height, filters out hands resting
 on a desk near shoulder height.
 
 `HandRaiseTracker` debounces the signal and records rise/lower timestamps.

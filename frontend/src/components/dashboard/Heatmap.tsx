@@ -78,7 +78,7 @@ export function EngagementHeatmap({ students, timelines }: HeatmapProps) {
                     />
                   </TooltipTrigger>
                   <TooltipContent>
-                    {student.label} · {fmtClock(i * bucketSeconds)} —{" "}
+                    {student.label} · {fmtClock(i * bucketSeconds)} ·{" "}
                     {v == null ? "not present" : `attention ${Math.round(v)}`}
                   </TooltipContent>
                 </Tooltip>

@@ -150,7 +150,7 @@ export function deriveInsights(
   if (late < early - 8) {
     insights.push({
       title: "Fatigue trend",
-      detail: `Average attention fell ${Math.round(early - late)} points from the first to the last third of the session — consider a mid-session break.`,
+      detail: `Average attention fell ${Math.round(early - late)} points from the first to the last third of the session, so a mid-session break may help.`,
       tone: "warning",
     });
   } else if (late > early + 8) {

@@ -18,7 +18,7 @@ def make_engine(database_url: str, echo: bool = False) -> Engine:
     """Create an engine; for SQLite, ensure the parent directory exists.
 
     In-memory SQLite uses a StaticPool so every ORM session shares the single
-    connection (and therefore the same database) — required for tests.
+    connection (and therefore the same database), required for tests.
     """
     kwargs: dict = {"echo": echo}
     if database_url.startswith("sqlite"):

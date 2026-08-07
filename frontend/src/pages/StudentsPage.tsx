@@ -22,7 +22,7 @@ export function StudentsPage() {
     <>
       <PageHeader
         title="Students"
-        description={`${students.length} anonymous tracked student${students.length === 1 ? "" : "s"} — no face recognition`}
+        description={`${students.length} anonymous tracked student${students.length === 1 ? "" : "s"}, with no face recognition`}
         actions={
           <div className="flex items-center gap-2">
             <div className="flex rounded-lg border border-border p-0.5">
@@ -71,7 +71,7 @@ export function StudentsPage() {
           <EmptyState
             icon={UserX}
             title="No students detected"
-            message="Run a monitoring session — every student the tracker finds will appear here with their own engagement card."
+            message="Run a monitoring session. Every student the tracker finds will appear here with their own engagement card."
           />
         </Card>
       ) : view === "grid" ? (

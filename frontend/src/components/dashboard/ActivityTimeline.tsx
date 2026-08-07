@@ -53,7 +53,7 @@ export function ActivityTimeline({
       <EmptyState
         icon={Activity}
         title="No activity yet"
-        message="Session events — phones, hand raises, attention swings — will appear here as they happen."
+        message="Session events (phones, hand raises, attention swings) will appear here as they happen."
       />
     );
   }

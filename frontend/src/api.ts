@@ -22,8 +22,8 @@ export const IS_STATIC_DEMO = import.meta.env.VITE_DEMO_STATIC === "true";
 const DEMO_BASE = `${import.meta.env.BASE_URL}demo-data`;
 
 export const DEMO_NOTICE =
-  "This is a static demo — live capture needs the Python backend running locally. " +
-  "Clone the repo to process your own video.";
+  "This is a static demo. Live capture needs the Python backend running " +
+  "locally, so clone the repo to process your own video.";
 
 class DemoUnavailableError extends Error {
   constructor() {

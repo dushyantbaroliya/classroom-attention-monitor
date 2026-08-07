@@ -9,7 +9,7 @@ export function useLiveFeed(enabled: boolean) {
   const socketRef = useRef<WebSocket | null>(null);
 
   useEffect(() => {
-    // No backend in the static demo — never open a socket that can't connect.
+    // No backend in the static demo, so never open a socket that can't connect.
     if (IS_STATIC_DEMO) return;
     if (!enabled) {
       socketRef.current?.close();

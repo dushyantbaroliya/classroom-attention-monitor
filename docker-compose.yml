@@ -8,7 +8,7 @@ services:
       - ./yolo_weights:/app/yolo_weights
       - ./config.yaml:/app/config.yaml:ro
       - ./sample_videos:/app/sample_videos:ro
-    # Webcam passthrough (Linux only) — uncomment to stream from a camera.
+    # Webcam passthrough (Linux only), uncomment to stream from a camera.
     # On Windows/macOS analyze uploaded files instead, or run the backend natively.
     # devices:
     #   - /dev/video0:/dev/video0

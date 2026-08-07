@@ -6,37 +6,37 @@ pose, blinks/drowsiness, gaze direction, phone usage and hand raises, fuses
 them into an **explainable, configurable attention score (0–100)**, and
 serves live video + analytics to a teacher-facing dashboard.
 
-**[▶ Live demo](https://dushyantbaroliya.github.io/classroom-attention-monitor/)** —
-the real dashboard running on a recorded session. Live webcam capture needs the
+**[▶ Live demo](https://dushyantbaroliya.github.io/classroom-attention-monitor/)**
+shows the real dashboard running on a recorded session. Live webcam capture needs the
 Python pipeline running locally (see [Quick start](#quick-start-docker--recommended)).
 
 > ⚠️ This system estimates *behavior*, not cognition, and is a
-> decision-support tool — see [Ethical considerations](#ethical-considerations).
+> decision-support tool; see [Ethical considerations](#ethical-considerations).
 
 ---
 
 ## Highlights
 
-- **Modular ML pipeline** — every stage (detection, tracking, head pose, EAR,
+- **Modular ML pipeline**: every stage (detection, tracking, head pose, EAR,
   gaze, hands, scoring) is an independent, unit-tested module behind a small
   interface; the detector/analyzer implementations are dependency-injected, so
   the entire pipeline runs in CI with scripted fakes and zero model downloads.
-- **Two interchangeable detector backends** — a torch-free **MediaPipe**
-  backend (EfficientDet-Lite, the default — the whole pipeline runs on just
+- **Two interchangeable detector backends**: a torch-free **MediaPipe**
+  backend (EfficientDet-Lite, the default; the whole pipeline runs on just
   `mediapipe` + downloaded model bundles) and an optional **YOLO** backend
   (Ultralytics, GPU-capable). Selected in one config line.
-- **Verified on real footage** — detects and scores all four students in a
+- **Verified on real footage**: detects and scores all four students in a
   real classroom clip end-to-end; see [Verification](#verification) for the
   annotated output and measured numbers, not just claims.
-- **Self-contained ByteTrack-style tracker** — Kalman + two-stage Hungarian
+- **Self-contained ByteTrack-style tracker**: Kalman + two-stage Hungarian
   association (high/low confidence), with re-identification after occlusion.
-- **Explainable scoring** — the API reports *why* each student got their
+- **Explainable scoring**: the API reports *why* each student got their
   score (`{"head_forward": +30, "phone_detected": -20, ...}`); weights live
   in `config.yaml`, not code.
-- **Production-shaped backend** — FastAPI + SQLAlchemy 2.0 + Alembic,
+- **Production-shaped backend**: FastAPI + SQLAlchemy 2.0 + Alembic,
   structured JSON logging, dependency injection, WebSocket live feed,
   Dockerized with an nginx-served React dashboard.
-- **Premium analytics dashboard** — a six-page SaaS-style app (Dashboard,
+- **Premium analytics dashboard**: a six-page SaaS-style app (Dashboard,
   Live Monitoring, Students, Analytics, Reports, Settings) built on
   shadcn-style primitives, React Query, Recharts, TanStack Table and Framer
   Motion, with light/dark themes, skeleton loading, empty/error states and
@@ -107,7 +107,7 @@ classroom-attention-monitor/
 └── docker-compose.yml
 ```
 
-## Quick start (Docker — recommended)
+## Quick start (Docker, recommended)
 
 ```bash
 git clone <repo> && cd classroom-attention-monitor
@@ -142,7 +142,7 @@ uvicorn backend.app.asgi:app --port 8000
 cd frontend && npm install && npm run dev            # http://localhost:5173
 ```
 
-The default detector backend is **MediaPipe** — no torch needed. To use the
+The default detector backend is **MediaPipe**; no torch needed. To use the
 optional **YOLO** backend instead, `pip install -r requirements-yolo.txt` and
 set `detection.backend: yolo` in `config.yaml`.
 
@@ -203,7 +203,7 @@ Interactive documentation is auto-generated at `/docs` (Swagger) and `/redoc`.
 | GET | `/statistics?session_id=` | Headline numbers (class average, alerts, most/least engaged) |
 | WS | `/ws/live` | ~10 Hz push: annotated JPEG + per-student live analytics |
 
-`session_id` is optional everywhere — it defaults to the active session, then
+`session_id` is optional everywhere; it defaults to the active session, then
 the most recent one.
 
 ## Feature notes
@@ -212,16 +212,16 @@ the most recent one.
 The detector is dependency-injected behind a small `Detector` protocol, with
 two interchangeable implementations selected by `detection.backend`:
 
-- **`mediapipe`** (default, torch-free) — MediaPipe Tasks **EfficientDet-Lite**
+- **`mediapipe`** (default, torch-free): MediaPipe Tasks **EfficientDet-Lite**
   detects **persons** and **cell phones** (COCO). The whole pipeline then runs
   on just `mediapipe` + the downloaded `.task`/`.tflite` bundles.
-- **`yolo`** (optional, GPU-capable) — Ultralytics YOLO; a COCO model detects
+- **`yolo`** (optional, GPU-capable): Ultralytics YOLO; a COCO model detects
   persons + phones in one pass, or set `detection.face_model_path` to a
   dedicated YOLO face model.
 
 For each tracked person, MediaPipe **FaceLandmarker** (Tasks API, 478
-landmarks incl. iris) analyzes that person's cropped-and-upscaled region —
-this is what makes small, distant classroom faces detectable, since MediaPipe's
+landmarks incl. iris) analyzes that person's cropped-and-upscaled region.
+This is what makes small, distant classroom faces detectable, since MediaPipe's
 built-in face detector is short-range and misses faces that occupy little of
 the full frame. Tracker IDs are stable across occlusions
 (`tracking.max_lost_frames`), giving the anonymous `Student N` identities.
@@ -247,7 +247,7 @@ learning-based gaze model is on the roadmap.
 ### Performance
 Per-student cost dominates: each tracked person gets a FaceLandmarker pass
 (and, when enabled, a Pose pass for hand raises), so throughput scales with
-class size. Measured on this dev machine (CPU-only, MediaPipe backend — see
+class size. Measured on this dev machine (CPU-only, MediaPipe backend; see
 [Verification](#verification)): ~2.8 FPS on a 4-person **1080p** classroom
 clip with pose on, and ~8.8 FPS on a 2-person 432p clip. Levers for higher
 throughput: `video.process_every_n` (analyze every Nth frame), lower
@@ -296,7 +296,7 @@ A six-page analytics app, not a single scrolling panel:
 |---|---|
 | **Dashboard** | Six hero metrics with sparklines and trend deltas, live feed, activity timeline, attention area chart, distribution + phone donut |
 | **Live Monitoring** | Large annotated video panel with per-student overlays (ID, attention, head-direction, phone and hand icons), FPS badge, and a live roster with attention rings |
-| **Students** | Card grid (attention ring, status band, behavior badges, per-student sparkline) with a TanStack Table view — sortable, filterable, paginated |
+| **Students** | Card grid (attention ring, status band, behavior badges, per-student sparkline) with a TanStack Table view: sortable, filterable, paginated |
 | **Analytics** | Auto-derived insights and teacher recommendations, student ranking, blink trends, and a students × time engagement heatmap |
 | **Reports** | Print-optimized session summary with roster table (`Print / PDF` hides chrome via print styles) |
 | **Settings** | Theme, live backend/pipeline health, and the ethics guardrails |
@@ -349,7 +349,7 @@ educators**, and several guardrails are built in rather than bolted on:
    guardians where applicable) before running any session. Follow your
    institution's policies and local law (e.g. GDPR/FERPA equivalents).
 5. **Not for grading or discipline.** Outputs are aggregate teaching
-   feedback ("attention dipped 40 minutes in — maybe a break helps"), not
+   feedback ("attention dipped 40 minutes in; maybe a break helps"), not
    evidence for evaluating or punishing individuals. Per-student data exists
    to help teachers notice who might need support, and should be interpreted
    by a human in context.

@@ -3,7 +3,7 @@
 Every component is a named rule with a weight loaded from configuration
 (`config.yaml -> scoring.weights`). The engine reports the exact
 contribution of each rule so the dashboard can show *why* a student got
-their score — no black boxes.
+their score, no black boxes.
 
 Normalization
 -------------
@@ -11,7 +11,7 @@ raw score = sum of triggered weights.
 The theoretical range without bonuses is [sum(negative weights), sum of
 non-bonus positive weights]; that range is mapped linearly to 0..100.
 "Bonus" rules (e.g. hand raised) can push the score above the nominal
-maximum and are clamped at 100 — a student should not *need* a raised
+maximum and are clamped at 100, a student should not *need* a raised
 hand to reach full attention.
 """
 from __future__ import annotations
